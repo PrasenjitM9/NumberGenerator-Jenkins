@@ -1,7 +1,7 @@
 pipeline {
-    agent {
-        label "ubuntu"
-    }
+
+    agent any 
+
     tools {
         maven 'maven'
         jdk 'java'
